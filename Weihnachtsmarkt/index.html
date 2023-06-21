@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<title>Weihnachtsmarkt: Ticket kaufen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <table border="0" class="table">
+      <tr class="headertr">
+    <td class="headerimg">
+    <a href="index.html"><img class="logo" src="logo.gif"></a>
+  </td>
+  <td class="h1">
+    <h1 class="h1">Kunsthandwerklicher Weihnachts-Markt</h1>
+  </td>
+</tr>
+</table>
+    
+  </header>
+
+  <main>
+  
+<table border="0" class="table2">
+  <td>Tickets kaufen</td>
+  </table>
+
+<div class="form">
+<form action="kasse.php" method="POST">
+
+  <div class="tickets">
+
+  <input class="ticket1" type="number" placeholder="0"  min="1" max="5">
+  <label for="samstag"> Samstag 5€/Ticket</label><br>
+  
+  <input class="ticket2" type="number" placeholder="0" min="1" max="5">
+  <label for="alter"> Sonntag 5€/Ticket</label><br>
+
+ <input class="ticket3" type="number" placeholder="0" min="1" max="5">
+  <label for="alter"> Kombiniert 7€/Ticket</label><br>
+  
+</div>
+
+<div class="kasse">
+
+<input type="checkbox" name="agb" id="agb" required>
+<label for="agb" >Ich bin mit den <a href="agb.html">AGB</a> einverstanden</label>
+
+<button type="reset" class="resetbutton">Zurücksetzen</button>
+
+<button type="submit">Zur Kasse</button>
+
+</div>
+</form>
+
+<div class="newsletter">
+  
+  <form action="news.php" method="POST">
+
+   <br> Newsletter abonnieren <br>
+<label class="newsletter" for="email">E-Mail:</label>
+<input type="email" name="email" id="email" placeholder="" required>
+
+<button type="submit">Newsletter abonnieren</button>
+
+</form>
+</div>
+
+
+</div>
+  
+  </main>
+
+
+  <footer>
+  <nav>
+    <a href="kontakt.html">Kontakt/Impressum</a>
+  </nav>
+  </footer>
+</body>
+</html>

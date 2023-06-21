@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 40em;
+  background-color:#999;
+}
+main, footer {
+  background-color: #ff9;
+  border: thin solid black;
+  border-radius: .5em;
+  clear: both;
+  padding:1em;
+
+}
+
+header{
+  background-color: #ff9;
+  border: thin solid black;
+  border-radius: .5em;
+  clear: both;
+  padding:1em;
+
+
+}
+
+.h1 {
+  text-align: center;
+}
+
+.ticket1, .ticket2, .ticket3 {
+  width: 40px;
+}
+
+header img {
+	float: left;
+}
+.logo {
+  width: 242px;
+  height: 80px;
+}
+a{
+  text-decoration:none;
+  font-size:1.1em;
+}
+#sa,#so,#kombi{
+  width:3em;
+}
+fieldset{
+  border:none;
+}
+legend{
+  font-size:1.2em;
+}
